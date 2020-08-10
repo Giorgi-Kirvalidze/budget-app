@@ -1,0 +1,45 @@
+.item {
+    padding: 1.3rem;
+    border-bottom: .1rem solid #e7e7e7;
+    &__description {
+        float: left;
+    }
+    
+    &__value {
+        float: left;
+        transition: transform 0.3s;
+    }
+    
+    &__percentage {
+        float: left;
+        margin-left: 2rem;
+        transition: transform 0.3s;
+        font-size: 1.1rem;
+        background-color: #FFDAD9;
+        padding: .3rem;
+        border-radius: .3rem;
+        width: 3.2rem;
+        text-align: center;
+    }
+    &:first-child { border-top: .1rem solid #e7e7e7; }
+    &:nth-child(even) { background-color: #f7f7f7; }
+}
+
+.container {
+    width: 100rem;
+    margin: 6rem auto;
+}
+
+.income {
+    float: left;
+    width: 47.5rem;
+    margin-right: 5rem;
+    &__title { color: #28B9B5; }
+}
+
+.expenses {
+    float: left;
+    width: 47.5rem;
+    &__title { color: #FF5049; }
+}
+

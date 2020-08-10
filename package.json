@@ -1,0 +1,22 @@
+{
+  "name": "budgetcontroller",
+  "version": "1.0.0",
+  "description": "control your future",
+  "main": "app.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Giorgi-Kirvalidze/BudgetMonthlyController.git"
+  },
+  "author": "Giorgi Kirvalidze",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Giorgi-Kirvalidze/BudgetMonthlyController/issues"
+  },
+  "homepage": "https://github.com/Giorgi-Kirvalidze/BudgetMonthlyController#readme",
+  "devDependencies": {
+    "node-sass": "^4.14.1"
+  }
+}

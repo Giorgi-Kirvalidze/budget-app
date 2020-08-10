@@ -1,0 +1,47 @@
+
+
+    /*big tablet to 1200px */
+
+    @media only screen and (max-width:1200px){
+
+    }
+        
+    
+    
+    
+    /*small tablet to big tablet: from 767px to 1023px */
+    
+    @media only screen and (max-width:1023px){
+        .container {
+            width:50%;
+        }
+        
+    }
+    /* Small phones to small tablets: from 481 to 767pixels*/
+    
+    @media only screen and (max-width:767px){
+        .container {
+            width:50%;
+            float:left;
+            padding:0 1rem;
+        }
+        .add__description {
+            width:40%;
+        }
+        .add__btn{
+           margin:1rem;
+        }
+    }
+
+    
+    
+    /* Small phones: from 0 to 480pixels*/
+    
+    
+    @media only screen and (max-width:480px){
+      .container {
+        width:20%;
+        float:left; 
+    }
+    
+}
